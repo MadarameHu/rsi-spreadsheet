@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spreadsheet Pipeline Viewer</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header id="topbar">
+  <a class="brand" href="#/b/batch">Spreadsheet <span>Pipeline Viewer</span></a>
+  <nav id="crumbs" class="crumbs"></nav>
+  <div id="fresh" class="fresh"></div>
+</header>
+<main id="app"><div class="loading">loading index…</div></main>
+<aside id="drawer" class="drawer" hidden>
+  <div class="drawer-head">
+    <strong id="drawer-title"></strong>
+    <button id="drawer-close" title="close">×</button>
+  </div>
+  <div id="drawer-body" class="drawer-body"></div>
+</aside>
+<div id="toast" class="toast" hidden></div>
+<script type="module" src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+runs/
+prep/
+jobs/
+archive/
+outputs/
+batch/
+configs/*.local.json
+viewer/data/
+viewer/*.log
+viewer/*.pid

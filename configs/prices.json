@@ -1,0 +1,7 @@
+{
+  "_note": "USD per million tokens. claude-opus-5.5 / claude-opus-5 are the Claude Code list prices back-solved from recorded total_cost_usd (exact match on run 00433m aggregate and design). They are list prices, not the gateway's invoiced rate. kimi-k3 has no known rate (Claude Code bills it at the opus list price as a fallback); fill it in to price it. Qwen is self-hosted locally: 0 here, GPU time is not token-priced.",
+  "claude-opus-5.5": {"input": 5.0, "cache_write": 6.25, "cache_read": 0.5, "output": 25.0},
+  "claude-opus-5": {"input": 5.0, "cache_write": 6.25, "cache_read": 0.5, "output": 25.0},
+  "kimi-k3": null,
+  "Qwen3-4B-Thinking-2507": {"input": 0.0, "cache_write": 0.0, "cache_read": 0.0, "output": 0.0}
+}
